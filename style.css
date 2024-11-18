@@ -150,3 +150,38 @@ footer .social-icons a {
     margin: 0 10px;
     font-size: 1.2em;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    
+}
+
+.alerta {
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alerta-atencao {
+    background-color: #ffffcc; /* Amarelo claro */
+    border: 1px solid #ffd700;
+    color: #666;
+}
+
+.icone-alerta {
+    font-size: 24px;
+    color: #ffd700;
+    margin-right: 10px;
+}
+
+.mensagem-alerta {
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+}
