@@ -169,9 +169,9 @@ body {
 }
 
 .alerta-atencao {
-    background-color: #ffffcc; /* Amarelo claro */
-    border: 1px solid #ffd700;
-    color: #666;
+    background-color: red; /* Amarelo claro */
+    border: 1px solid red;
+    color: white;
 }
 
 .icone-alerta {
