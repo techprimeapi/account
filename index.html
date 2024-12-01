@@ -3,76 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco TechPrime - Sua Plataforma Financeira Digital</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"><!-- Font Awesome para ícones -->
+    <title>Conta Desconectada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .mensagem {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .descricao {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1><i class="fas fa-university"></i> PrimeBank</h1>
-            
-            <div class="user-info">
-                <span>Olá, Raimundo!</span>
-                <button>Sair</button>
-            </div>
+    <div class="container">
+        <div class="mensagem">
+            Sua conta foi encerrada.
         </div>
-    </header>
- <div class="container" style="">
-        <div class="alerta alerta-atencao">
-            <i class="fa-solid fa-triangle-exclamation icone-alerta"></i>
-            <p class="mensagem-alerta">Sua conta encontra-se bloqueada. Verifique seu e-mail para mais informações.</p>
+        <div class="descricao">
+            Você foi desconectado por motivos de segurança. Por favor, tente novamente mais tarde.
         </div>
     </div>
-    <main class="container">
-
-        <section class="dashboard">
-            <div class="saldo-box">
-                <h2>Saldo Disponível</h2>
-                <p id="valorSaldo" style="color: red;">R$ 3.123,34</p>
-            </div>
-            <div class="acoes-rapidas">
-                <button><i class="fas fa-exchange-alt"></i> Transferir</button>
-                <button><i class="fas fa-qrcode"></i> PIX</button>
-                <button><i class="fas fa-file-invoice-dollar"></i> Pagar Boleto</button>
-                <button><i class="fas fa-wallet"></i> Recarga</button>
-            </div>
-        </section>
-
-        <section class="transacoes">
-            <h2>Últimas Transações</h2>
-            <ul>
-              
-                <!-- Mais transações aqui -->
-            </ul>
-        </section>
-
-        <section class="investimentos">
-            <h2>Investimentos</h2>
-            <div class="investimento-item">
-                <h3>CDB TechPrime</h3>
-                <p>Rentabilidade: 110% do CDI</p>
-                <button>Investir</button>
-            </div>
-            <div class="investimento-item">
-                <h3>Fundo Multimercado</h3>
-                <p>Rentabilidade: Variação de acordo com o mercado</p>
-                <button>Investir</button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 PrimeBank. Todos os direitos reservados.</p>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
